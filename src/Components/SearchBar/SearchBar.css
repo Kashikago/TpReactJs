@@ -1,0 +1,24 @@
+.searchBarMain{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    filter: drop-shadow(0px 15px 12px #0000002d);
+}
+.searchBarText{
+    height: 50%;
+    width: 60%;
+    margin-left: 3%;
+}
+
+.searchBarButton{
+    background-color: #1EAEDB;
+    color: whitesmoke;
+}
+.searchBarButton:hover{
+    background-color: #7be0ff;
+    color: whitesmoke;
+}
+.searchBarButton:focus{
+    background-color: #1EAEDB;
+    color: whitesmoke;
+}

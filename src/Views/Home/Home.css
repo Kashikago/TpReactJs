@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+.selectionZone{
+    margin: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.selectionButton{
+    margin: 10%;
+    height: 200% !important;
+    width: 100%;
+    
+}
+.selectionButton:hover{
+    background-color: #1EAEDB;
+    color: whitesmoke !important;
+}
