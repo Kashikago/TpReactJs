@@ -7,7 +7,7 @@ function GifDisplayer(props){
     })}
     return(<>
     <div className="displayGif">
-       {displayedGif}
+        {displayedGif.length > 0 ? displayedGif : "You will see your result here !"}
     </div>
     </>)
 }
